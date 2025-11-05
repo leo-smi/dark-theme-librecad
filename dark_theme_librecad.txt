@@ -1,0 +1,112 @@
+/* monokai-dark.qss for LibreCAD */
+/* Based on alpha.qss but adapted for Monokai style dark theme */
+
+/* General */
+QWidget {
+    background-color: #272822;
+    color: #F8F8F2;
+    font-family: "Consolas", "DejaVu Sans Mono", "Arial";
+    font-size: 14px;
+}
+
+/* Layer List */
+QTableView {
+    background-color: #2E2F2A;
+    color: #F8F8F2;
+    gridline-color: #3E3D32;
+    selection-background-color: #49483E;
+    selection-color: #A6E22E;
+    font-size: 15px;
+}
+
+/* Menus */
+QMenuBar {
+    background-color: #2E2F2A;
+    color: #F8F8F2;
+    border-bottom: 1px solid #3E3D32;
+}
+
+QMenuBar::item:selected {
+    background-color: #49483E;
+    color: #A6E22E;
+}
+
+QMenu {
+    background-color: #2E2F2A;
+    border: 1px solid #3E3D32;
+    padding: 4px;
+    font-size: 15px;
+}
+
+QMenu::item {
+    padding: 4px 24px;
+}
+
+QMenu::item:selected {
+    background-color: #49483E;
+    color: #A6E22E;
+}
+
+/* Toolbars */
+QToolBar {
+    background-color: #1E1F1C;
+    spacing: 4px;
+    padding: 4px;
+    border-bottom: 1px solid #3E3D32;
+}
+
+QToolButton {
+    background-color: #3E3D32;
+    border: 1px solid #75715E;
+    border-radius: 3px;
+    padding: 4px;
+    color: #F8F8F2;
+}
+
+QToolButton:hover {
+    background-color: #49483E;
+    border-color: #A6E22E;
+}
+
+QToolButton:checked {
+    background-color: #75715E;
+    border-color: #A6E22E;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #1E1F1C;
+    color: #F8F8F2;
+    border-top: 1px solid #3E3D32;
+}
+
+/* Text Areas */
+QTextEdit, QPlainTextEdit {
+    background-color: #272822;
+    color: #F8F8F2;
+    selection-background-color: #49483E;
+    selection-color: #E6DB74;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #3E3D32;
+    color: #F8F8F2;
+    border: 1px solid #75715E;
+    padding: 3px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #1E1F1C;
+    border: none;
+}
+
+QScrollBar::handle {
+    background: #75715E;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:hover {
+    background: #A6E22E;
+}
